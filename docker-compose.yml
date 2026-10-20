@@ -1,0 +1,7 @@
+services:
+  api:
+    build: ./backend
+    ports:
+      - "8070:8070"
+    environment:
+      PORT: 8070
